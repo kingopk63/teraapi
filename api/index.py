@@ -12,7 +12,7 @@ from fake_useragent import UserAgent
 app = Flask(__name__)
 
 # ====== 🇮🇳 ==============
-# # © Developer = WOODcraft 
+# # © Developer = Abhikr 
 # ========================
 # Configuration
 COOKIES_FILE = 'cookies.txt'
@@ -296,8 +296,8 @@ import json
 def home():
     data = {
         "status": "Running ✅",
-        "developer": "@Farooq_is_king",
-        "channel": "@Opleech_WD",
+        "developer": "@Abhikr",
+        "channel": "@ak535",
         "endpoints": {
             "/api": "GET with ?url=TERABOX_SHARE_URL parameter",
             "/health": "Service health check"
@@ -309,8 +309,8 @@ def home():
 def health_check():
     data = {
         "status": "healthy",
-        "developer": "@Farooq_is_king",
-        "channel": "@Opleech_WD"
+        "developer": "@Abhikr",
+        "channel": "@ak535"
     }
     return Response(json.dumps(data, ensure_ascii=False), mimetype='application/json')
 
