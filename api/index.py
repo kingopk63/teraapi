@@ -245,7 +245,7 @@ async def api_handler():
         if not url:
             return jsonify({
                 "status": "error",
-                "message": "URL parameter is required. Developed by @Farooq_is_king. Join @OPLEECH_WD for updates.",
+                "message": "URL parameter is required.",
                 "usage": "/api?url=YOUR_TERABOX_SHARE_URL"
             }), 400
         
